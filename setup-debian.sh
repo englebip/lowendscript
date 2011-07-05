@@ -167,9 +167,9 @@ function install_php {
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 NAME="php-cgi"
 DESC="php-cgi"
-PIDFILE="/var/run/www/php.pid"
+PIDFILE="/var/run/php.pid"
 FCGIPROGRAM="/usr/bin/php-cgi"
-FCGISOCKET="/var/run/www/php.sock"
+FCGISOCKET="/var/run/php.sock"
 FCGIUSER="www-data"
 FCGIGROUP="www-data"
 
