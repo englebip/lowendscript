@@ -394,7 +394,7 @@ system)
     update_upgrade
     install_dash
     install_syslogd
-    install_dropbear
+#    install_dropbear
     ;;
 wordpress)
     install_wordpress $2
